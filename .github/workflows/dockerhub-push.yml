@@ -1,4 +1,6 @@
 on: push
+  branches:
+      - 'master'
 jobs: 
   build-container: 
     name: Build container
