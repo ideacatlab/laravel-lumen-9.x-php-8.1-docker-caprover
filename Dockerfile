@@ -68,7 +68,6 @@ RUN rm -rf /etc/nginx/sites-enabled
 RUN mkdir -p /etc/nginx/sites-enabled
 
 RUN chmod -R 777 /var/www/storage
-RUN chmod -R 777 /var/www/vendor
 
 
 # Expose port 80 and start php-fpm server
